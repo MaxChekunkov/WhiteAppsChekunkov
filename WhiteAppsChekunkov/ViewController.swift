@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var moneyWallet = 1000
     var month = "12"
     var year: Int = 2022
-    var cryptoWallet: Float = 2.11235
+    lazy var cryptoWallet: Float = 2.11235 + Float(wallet)
     var itsDecember = true
     lazy var copyWallet = wallet
     let myYearOfBirth = 1989
@@ -26,8 +26,44 @@ class ViewController: UIViewController {
     let myEyeColor = "brown"
     var myHairColor = "brown"
     let myNameIsMaksim = true
-    let mySurnameIbanov = false
+    let mySurnameIvanov = false
     lazy var hairСleanliness = "dirty"
+    let firstPost = "Salut," + "Bonjour"
+    let exampleIsCorrect = (2+2) < (3+3)
+    let exampleIsNotCorrect = (2+2) > (3+3)
+    let subtraction = 3-1
+    let multiplication = 2*2
+    let division = 15/5
+    lazy var divisionResult = division == 2 ? 1 : 2
+    var todayIsFriday = !false
+    lazy var todayIsFridayDecember = todayIsFriday && itsDecember
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+   
+    
+    
+    
+    
+        
+        
+    
+
     
     
     
@@ -100,6 +136,18 @@ class ViewController: UIViewController {
           print(myYearOfBirth)
           myHairColor = "black"
           print(myHairColor)
+          print(firstPost)
+          print(exampleIsCorrect)
+          print(exampleIsNotCorrect)
+          print(subtraction)
+          print(multiplication)
+          print(division)
+          print(divisionResult)
+        
+        
+         
+        
+          
         
           
     }
