@@ -102,6 +102,183 @@ class ViewController: UIViewController {
     var pair : Int {
         return woman+man
     }
+//    func greet(person: String) -> String {
+//        let greeting = "Привет," + person + "!"
+//        return greeting
+//    }
+    func greetAgain(person: String) -> String {
+        return "Привет друг," + person + "!"
+    }
+    
+    
+
+    
+    func greetAgain1(person: String) -> String {
+        return "Hello again, " + person + "!"
+    }
+    
+    func compliment() -> String {
+        return "Вы великолепны!"
+    }
+    
+    func makeAcompliment(person: String) -> String {
+        return "Вы великолепны," + person + "!"
+    }
+    
+    func lunch(time: Int) -> String {
+        return "сегодня " + String(time)
+    }
+  
+    
+    func greet(person: String) {
+        print("Привет,\(person)!")
+    }
+    
+    func access(name person: String, age: Int) -> String {
+        let result = age > 18 ? "Доступ разрешен," : "Доступ запрещен,"
+        return result + person
+    }
+    func otherAccess(person: String, age: Int) -> String {
+        if age > 18 {
+           return "Доступ разрешен," + person
+            
+        }
+        else{
+        return "Доступ запрещен," + person
+        }
+    }
+    func calculate(number1: Double, number2: Double, number3: Int) -> Double {
+        if number3 == 1 {
+            return number1 + number2
+        }
+        else if number3 == 2 {
+            return number1 - number2
+        }
+        else if number3 == 3 {
+            return number1 * number2
+        }
+        else if number3 == 4 {
+            return number1 / number2
+        }
+        else {
+            return -1}
+    }
+    func calculateCall() {
+        let calculete = calculate(number1: 11.11, number2: 22.22, number3: 1)
+        print(calculete)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
     
     
     
@@ -156,6 +333,39 @@ class ViewController: UIViewController {
                calendar = "март"
                calendar = "апрель"
             print(pair)
+//        print(greet(person: "Максим"))
+        print(greetAgain(person: "Виктор"))
+        print(greetAgain1(person: "Виктор"))
+        print(compliment())
+        print(makeAcompliment(person: "Владимир"))
+        var accessresult = access(name: "Владимир", age: 16)
+        print(accessresult)
+        print(otherAccess(person: "Виктор", age: 17))
+        print(lunch(time: 14))
+        greet(person: "Дмитрий")
+        print(calculate(number1: 2.22, number2: 3.33, number3: 1))
+        print(calculate(number1: 3.33, number2: 2.22, number3: 2))
+        print(calculate(number1: 22.11, number2: 23.22, number3: 3))
+        print(calculate(number1: 22.11, number2: 24.2, number3: 4))
+        print(calculate(number1: 21.1, number2: 32, number3: 6))
+        calculateCall()
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
